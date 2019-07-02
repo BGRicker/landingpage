@@ -4,59 +4,33 @@ body {
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   height: 100%;
 }
 
-h1 {
-  font-size: 40pt;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  color: rgb(17, 73, 97);
-  line-height: 47.1pt;
+img#header {
+  width: 1264pt;
 }
 
-h2 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 30pt;
-  color: rgb(16, 73, 97);
-  line-height: 30pt;
-  letter-spacing: 0;
-  width: 300pt;
-}
-
-h3 {
-  font-family: 'Roboto', sans-serif;
-  color: rgb(148, 148, 148);
-  line-height: 26pt;
-  font-weight: 400;
-  size: 20pt
-}
-
-h4 {
-  font-size: 19pt;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: rgb(134, 134, 134);
-  line-height: 26.3pt;
-  margin-top: -20px;
-}
-
-.background {
-  top: 0;
+#background {
+  top: 0px;
   min-height: 100%;
-  margin: 0 87px 0 87px;
+  margin: 0px 87px 0px 87px;
   background-color: rgb(255, 255, 255);
   height: 3000px;
 }
 
-.header {
+img#background {
+  width: 1264pt;
+}
+
+img.header {
   width: 100%;
   height: 550pt;
 }
 
-.logo {
+img#logo {
   position: absolute;
   height: 56px;
   width: auto;
@@ -64,7 +38,7 @@ h4 {
   padding-left: 127px;
 }
 
-.phone {
+img#phone {
   position: absolute;
   height: 620px;
   width: auto;
@@ -72,7 +46,7 @@ h4 {
   right: 155.5px;
 }
 
-.middle-phone {
+img#middle-phone {
   height: 591px;
   width: auto;
   top: 400pt;
@@ -80,12 +54,29 @@ h4 {
   position: absolute;
 }
 
-.tagline {
+#tagline {
   width: 540px;
   height: 114px;
   position: absolute;
   top: 130px;
   left: 212px;
+}
+
+#tagline h1 {
+  font-size: 40pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: rgb(17, 73, 97);
+  line-height: 47.1pt;
+}
+
+#tagline h3 {
+  font-size: 19pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgb(134, 134, 134);
+  line-height: 26.3pt;
+  margin-top: -20px;
 }
 
 ::-webkit-input-placeholder {
@@ -126,7 +117,7 @@ input[type=text] {
   border: 2px;
   border-color: rgb(255, 255, 255);
   border-radius: 4pt;
-  box-shadow: 0 2pt 4pt rgba(0, 0, 0, 0.1);
+  box-shadow: 0pt 2pt 4pt rgba(0, 0, 0, 0.1);
 }
 
 input[type=submit] {
@@ -140,71 +131,86 @@ input[type=submit] {
   margin-left: 14pt;
 }
 
-.app-store {
+img#app-store {
   margin-top: 50px;
   width: 104pt;
   height: 37pt;
 }
 
-.scanning {
+#scanning {
   left: 175pt;
   position: relative;
   width: 260pt;
+  padding-top: 70pt;
 }
 
-.recommendations {
-  left: 175pt;
-  position: relative;
-  width: 260pt;
-  padding-top: 50pt;
+#scanning h1 {
+  line-height: 57pt;
+  letter-spacing: 0;
 }
 
-img.recommendations {
-  width: 355pt;
-  top: 1180pt;
-  position: absolute;
-  padding-left: 40%;
+.lower h1 {
+  font-family: 'Roboto Slab', serif;
+  size: 39pt;
+  color: rgb(16, 73, 97);
+  line-height: 43pt;
 }
 
-img.low-phone {
-  margin-top: 20pt;
+.lower h3 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(148, 148, 148);
+  line-height: 26pt;
+  font-weight: 400;
+  size: 20pt
+}
+
+img#low-phone {
+  margin-top: 50pt;
   margin-left: 140pt;
   width: 318pt;
   height: 413pt;
 }
 
-.read-with-friends {
+#read-with-friends {
   margin-right: 175pt;
   width: 260pt;
   position: absolute;
-  top: 880pt;
+  top: 940pt;
   right: 50pt;
   line-height: 26pt;
 }
 
-.review {
-  margin-top: 100pt;
+img#recommendations {
+  width: 355pt;
+  top: 1160pt;
+  right: 185pt;
+  position: absolute;
+  padding-top: 130pt;
+}
+
+img#review {
+  margin-top: 50pt;
   margin-left: 190pt;
   width: 201pt;
   height: 237pt;
 }
 
-.rate-and-review {
+#rate-and-review {
   margin-right: 140pt;
   width: 255pt;
   position: absolute;
-  top: 1545pt;
+  top: 1575pt;
   right: 110pt;
 }
 
-.footer {
+#footer {
   height: 550px;
   top: 150pt;
   position: relative;
   background-color: rgb(244, 248, 247);
 }
 
-.footer-arrow {
+#footer-arrow {
   width: 0;
   height: 0;
   position: relative;
@@ -247,8 +253,9 @@ img.low-phone {
   border-right: 750px solid transparent;
   border-bottom: 80pt solid rgb(244, 248, 247);
 }
+}
 
-.footer-content {
+#footer-content {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -257,14 +264,14 @@ img.low-phone {
   top: 200pt;
 }
 
-.book-footer {
+img#book-footer {
   height: 73pt;
   width: 105pt;
   top: -50pt;
   position: relative;
 }
 
-.footer-content h3 {
+#footer-content h3 {
   font-family: 'Roboto Slab', serif;
   size: 20pt;
   color: rgb(16, 73, 97);
@@ -286,7 +293,7 @@ img.low-phone {
   padding-top: 20pt;
 }
 
-.horizontal-line {
+#horizontal-line {
   width: 80%;
   height: 47px;
   display: block;
@@ -294,7 +301,7 @@ img.low-phone {
   border-bottom: 1px solid rgb(151, 151, 151);
 }
 
-.copyright {
+#copyright {
   font-family: 'Roboto', sans-serif;
   size: 12.3pt;
   color: rgb(17, 73, 97);

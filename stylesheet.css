@@ -138,22 +138,40 @@ img#app-store {
 }
 
 #scanning {
-  left: 175pt;
-  position: relative;
-  width: 260pt;
-  padding-top: 70pt;
+    left: 145pt;
+    position: relative;
+    width: 260pt;
+    padding-top: 80pt;
 }
 
-#scanning h1 {
-  line-height: 57pt;
-  letter-spacing: 0;
+img#scanning {
+  width: 355pt;
+  top: 1160pt;
+  right: 185pt;
+  position: absolute;
+  padding-top: 130pt;
+}
+
+#recommendations {
+    left: 145pt;
+    position: relative;
+    width: 260pt;
+    padding-top: 80pt;
+}
+
+#authors {
+    width: 355pt;
+    height: auto;
+    top: 1290pt;
+    right: 15%;
+    position: absolute;
 }
 
 .lower h1 {
   font-family: 'Roboto Slab', serif;
   size: 39pt;
   color: rgb(16, 73, 97);
-  line-height: 43pt;
+  line-height: 35pt;
 }
 
 .lower h3 {
@@ -165,7 +183,6 @@ img#app-store {
 }
 
 img#low-phone {
-  margin-top: 50pt;
   margin-left: 140pt;
   width: 318pt;
   height: 413pt;
@@ -175,17 +192,9 @@ img#low-phone {
   margin-right: 175pt;
   width: 260pt;
   position: absolute;
-  top: 940pt;
+  top: 880pt;
   right: 50pt;
   line-height: 26pt;
-}
-
-img#recommendations {
-  width: 355pt;
-  top: 1160pt;
-  right: 185pt;
-  position: absolute;
-  padding-top: 130pt;
 }
 
 img#review {

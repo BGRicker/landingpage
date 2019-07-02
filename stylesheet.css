@@ -67,6 +67,7 @@ img#middle-phone {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   color: rgb(17, 73, 97);
+  line-height: 47.1pt;
 }
 
 #tagline h3 {
@@ -139,14 +140,20 @@ img#app-store {
 #scanning {
   left: 175pt;
   position: relative;
-  width: 250pt;
-  padding-top: 30pt;
+  width: 260pt;
+  padding-top: 70pt;
+}
+
+#scanning h1 {
+  line-height: 57pt;
+  letter-spacing: 0;
 }
 
 .lower h1 {
   font-family: 'Roboto Slab', serif;
   size: 39pt;
   color: rgb(16, 73, 97);
+  line-height: 43pt;
 }
 
 .lower h3 {
@@ -154,6 +161,7 @@ img#app-store {
   color: rgb(148, 148, 148);
   line-height: 26pt;
   font-weight: 400;
+  size: 20pt
 }
 
 img#low-phone {
@@ -164,21 +172,20 @@ img#low-phone {
 }
 
 #read-with-friends {
-  margin-right: 140pt;
-  position: relative;
-  width: 360pt;
+  margin-right: 175pt;
+  width: 260pt;
   position: absolute;
-  top: 898pt;
-  right: 10pt;
+  top: 940pt;
+  right: 50pt;
+  line-height: 26pt;
 }
 
 img#recommendations {
-  height: auto;
   width: 355pt;
   top: 1160pt;
   right: 185pt;
   position: absolute;
-  padding-top: 50pt;
+  padding-top: 130pt;
 }
 
 img#review {
@@ -192,7 +199,7 @@ img#review {
   margin-right: 140pt;
   width: 255pt;
   position: absolute;
-  top: 1518pt;
+  top: 1575pt;
   right: 110pt;
 }
 

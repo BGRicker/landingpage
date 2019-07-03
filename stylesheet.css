@@ -138,10 +138,9 @@ img#app-store {
 }
 
 #scanning {
-    left: 145pt;
+    left: 170pt;
     position: relative;
     width: 260pt;
-    padding-top: 80pt;
 }
 
 img#scanning {
@@ -156,13 +155,13 @@ img#scanning {
     left: 145pt;
     position: relative;
     width: 260pt;
-    padding-top: 80pt;
+    padding-top: 50pt;
 }
 
 #authors {
     width: 355pt;
     height: auto;
-    top: 1290pt;
+    top: 1180pt;
     right: 15%;
     position: absolute;
 }
@@ -186,6 +185,7 @@ img#low-phone {
   margin-left: 140pt;
   width: 318pt;
   height: 413pt;
+  margin-top: 25pt;
 }
 
 #read-with-friends {
@@ -199,7 +199,7 @@ img#low-phone {
 
 img#review {
   margin-top: 50pt;
-  margin-left: 190pt;
+  margin-left: 150pt;
   width: 201pt;
   height: 237pt;
 }
@@ -208,7 +208,7 @@ img#review {
   margin-right: 140pt;
   width: 255pt;
   position: absolute;
-  top: 1575pt;
+  top: 1500pt;
   right: 110pt;
 }
 

@@ -333,10 +333,15 @@ img#book-footer {
   padding-right: 20pt;
 }
 
+.show-on-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 30pt;
     line-height: 36pt;
+    margin: 0 16pt 0 16pt;
   }
 
   h2 {
@@ -347,10 +352,31 @@ img#book-footer {
   h3 {
     font-size: 16pt;
     line-height: 22pt;
+    margin: 10pt 16pt 15pt 16pt;
   }
 
   h4 {
     margin: -5pt 16pt 0 16pt;
+  }
+
+  form {
+    display: none;
+  }
+
+  #tagline {
+    width: 100%;
+    height: 450pt;
+    background-color: rgb(244, 248, 247);
+    left: 0pt;
+    top: 0;
+  }
+
+  #tagline img {
+    padding-left: 15pt;
+  }
+
+  #tagline h1 {
+    padding-top: 130pt;
   }
 
   img#logo {
@@ -361,61 +387,76 @@ img#book-footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    z-index: 1;
   }
 
   #background {
     min-width: 100%;
     margin: 0 auto;
-    background-color: rgb(244, 248, 247);
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
+    height: 2600pt;
+  }
+
+  img#app-store {
+    margin-top: 0;
+    width: 104pt;
+    height: 37pt;
   }
 
   img#phone {
     height: 353pt;
-    top: 353pt;
-    right: -65pt;
+    top: 300pt;
+    right: -40pt;
     position: relative;
   }
 
   img#middle-phone {
-    height: 362pt;
-    top: 530pt;
-    right: 15%;
+    height: 322pt;
+    top: 480pt;
+    right: 18%;
     z-index: 1;
   }
 
-  img#review {
-    display: none;
+  #footer {
+    top: 150pt;
+    background-color: rgb(244, 248, 247);
   }
 
-  #footer {
-    top: 500pt;
+  #footer h4 {
+    color: black;
   }
 
   #read-with-friends {
-    margin-right: 0pt;
-    width: 260pt;
-    top: 1080pt;
-    right: 50pt;
-    line-height: 26pt;
-  }
-
-  form {
-    display: none;
-  }
-
-  /* just getting things in frame*/
-  #tagline {
-    margin-left: 8pt;
-    width: 280pt;
-    background-color: rgb(244, 248, 247);
+    right: 0pt;
     left: 0pt;
+    width: 260pt;
+    top: 430pt;
+    line-height: 26pt;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #authors {
+    width: 256pt;
+    height: auto;
+    margin-top: 450pt;
+    position: relative;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
   }
 
   #recommendations {
-    top: 1500pt;
-    position: relative;
-    width: 10pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-top: 0;
   }
 
   .header {
@@ -430,34 +471,69 @@ img#book-footer {
   #scanning {
     left: 0pt;
     width: 260pt;
-    top: 1200px;
-  }
-
-  #low-phone {
-    display: none;
+    top: 580px;
   }
 
   img#low-phone {
     position: relative;
-    height: 200pt;
+    height: 265pt;
     width: auto;
-    margin-top: 25pt;
-    left: -200pt;
-    display: hidden;
+    top: 430pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img#review {
-    margin-top: 50pt;
-    height: 100pt;
+    height: 190pt;
     width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  img {
+  #rate-and-review {
+    margin-right: 0;
+    width: auto;
     position: relative;
-    size: 20%;
+    top: 0;
+    right: 0;
   }
 
   .triangle-up {
+    padding-top: 98%;
     display: none;
+    color: black;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .show-on-mobile {
+    display: block;
+  }
+
+  .mobile-center {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+
+  #copyright {
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    padding-right: 0pt;
+  }
+
+  #lower-footer {
+    padding-top: 75pt;
+  }
+
+  #lower-footer p {
+    padding-top: 10pt;
   }
 }

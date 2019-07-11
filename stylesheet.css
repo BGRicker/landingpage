@@ -347,34 +347,29 @@ img.center {
     display: none;
   }
 
-  .top-triangle-right {
-    width: 0;
-    height: 0;
-    border-style: solid;
+  .top-right {
     border-width: 0 80vw 12vh 0;
     border-color: transparent rgb(69, 184, 168) transparent transparent;
     z-index: 3;
-    position: absolute;
     right: 0;
   }
 
-  .top-triangle-left {
-    width: 0;
-    height: 0;
-    border-style: solid;
+  .top-left {
     border-width: 12vh 80vw 0 0;
     border-color: rgb(245, 137, 131) transparent transparent transparent;
     z-index: 2;
-    position: absolute;
   }
 
-  .middle-mobile-triangle {
-    width: 0;
-    height: 0;
-    border-style: solid;
+  .middle-triangle {
     border-width: 0 0 30vh 180vw;
     border-color: transparent transparent rgb(238, 198, 122) transparent;
     right: 0vw;
+  }
+
+  .mobile-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
     position: absolute;
   }
 

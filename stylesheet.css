@@ -230,49 +230,17 @@ img#review {
   background-color: rgb(244, 248, 247);
 }
 
-#footer-arrow {
-  width: 0;
-  height: 0;
-  position: relative;
-  border-style: solid;
-  border-width: 0 632px 200px 632px;
-  border-left: 700px solid transparent;
-  border-right: 700px solid transparent;
-  border-bottom: 100pt solid rgb(244, 248, 247);
-  top: 150pt;
-}
-
-#footer-arrow:after {
-  display: block;
-  width: 0;
-  height: 0;
-  margin-left: -500px;
-  border-left: 700px solid transparent;
-  border-right: 700px solid transparent;
-  border-bottom: 100pt solid rgb(244, 248, 247);
-}
-
-.triangle-up {
-  width: 1;
-  height: 0;
-  padding-left: 33%;
-  padding-right: 10%;
-  padding-bottom: 10%;
-  overflow: hidden;
-  position: relative;
-  top: 177pt;
-}
-
-.triangle-up:after {
+#footer:before {
   content: "";
   display: block;
   width: 0;
   height: 0;
-  margin-left: -400pt;
-  border-left: 750px solid transparent;
-  border-right: 750px solid transparent;
-  border-bottom: 80pt solid rgb(244, 248, 247);
-}
+  border-left: 45vw solid transparent;
+  border-right: 45vw solid transparent;
+  border-bottom: 100pt solid rgb(244, 248, 247);
+  position: absolute;
+  top: 0;
+  transform: translateY(-100%);
 }
 
 #footer-content {
@@ -342,6 +310,17 @@ img#book-footer {
   letter-spacing: 0;
 }
 
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#lower-footer {
+  padding-top: 100px;
+}
+
 @media only screen and (max-width: 1300px) {
   h1 {
     font-size: 30pt;
@@ -388,7 +367,6 @@ img#book-footer {
     position: absolute;
     height: 60px;
     top: 10%;
-    margin-left: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -400,7 +378,7 @@ img#book-footer {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    height: 2800pt;
+    height: 2740pt;
   }
 
   img#app-store {
@@ -456,11 +434,6 @@ img#book-footer {
     display: none;
   }
 
-  #phone {
-    top: 1000px;
-    position: relative;
-  }
-
   #scanning {
     left: 0pt;
     top: 580px;
@@ -485,7 +458,6 @@ img#book-footer {
     position: relative;
     top: 0;
     right: 0;
-    padding-top: 50pt;
     margin-right: auto;
   }
 
@@ -526,6 +498,11 @@ img#book-footer {
     padding-top: 10pt;
   }
 
+  #footer .sharing {
+    font-size: 18pt;
+    padding-top: 0;
+  }
+
   .mobile-center-content {
     display: block;
     margin-left: auto;
@@ -533,4 +510,13 @@ img#book-footer {
     top: 0;
     right: 0;
   }
+
+  #footer:before {
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+  }
+
+    #lower-footer {
+      padding-top: 13vh;
+    }
 }

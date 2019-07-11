@@ -342,10 +342,10 @@ img#book-footer {
 }
 
 #footer .sharing {
-    font-family: 'Roboto Slab', serif;
-    font-size: 26pt;
-    color: rgb(16, 73, 97);
-    letter-spacing: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 26pt;
+  color: rgb(16, 73, 97);
+  letter-spacing: 0;
 }
 
 @media only screen and (max-width: 800px) {
@@ -406,7 +406,7 @@ img#book-footer {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    height: 2600pt;
+    height: 2800pt;
   }
 
   img#app-store {
@@ -439,14 +439,9 @@ img#book-footer {
   }
 
   #read-with-friends {
-    right: 0pt;
     left: 0pt;
-    width: 260pt;
     top: 430pt;
-    line-height: 26pt;
     position: relative;
-    display: block;
-    margin-left: auto;
     margin-right: auto;
   }
 
@@ -463,9 +458,6 @@ img#book-footer {
   }
 
   #recommendations {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     left: 0;
     padding-top: 0;
   }
@@ -481,8 +473,8 @@ img#book-footer {
 
   #scanning {
     left: 0pt;
-    width: 260pt;
     top: 580px;
+    padding-top: 50pt;
   }
 
   img#low-phone {
@@ -504,11 +496,11 @@ img#book-footer {
   }
 
   #rate-and-review {
-    margin-right: 0;
-    width: auto;
     position: relative;
     top: 0;
     right: 0;
+    padding-top: 50pt;
+    margin-right: auto;
   }
 
   .triangle-up {
@@ -546,5 +538,13 @@ img#book-footer {
 
   #lower-footer p {
     padding-top: 10pt;
+  }
+
+  .mobile-center-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    right: 0;
   }
 }

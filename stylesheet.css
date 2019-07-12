@@ -48,7 +48,7 @@ img#header {
   max-width: 1264pt;
 }
 
-#background {
+.background {
   top: 0px;
   min-height: 100%;
   margin: 0px 87px 0px 87px;
@@ -56,7 +56,7 @@ img#header {
   height: 3000px;
 }
 
-img#background {
+img.background {
   width: 1264pt;
 }
 
@@ -65,7 +65,7 @@ img.header {
   height: 550pt;
 }
 
-img#logo {
+img.logo {
   position: absolute;
   height: 56px;
   width: auto;
@@ -73,7 +73,7 @@ img#logo {
   padding-left: 127px;
 }
 
-img#phone {
+img.phone {
   position: absolute;
   height: 620px;
   width: auto;
@@ -81,7 +81,7 @@ img#phone {
   right: 155.5px;
 }
 
-img#middle-phone {
+img.middle-phone {
   height: 591px;
   width: auto;
   top: 400pt;
@@ -89,7 +89,7 @@ img#middle-phone {
   position: absolute;
 }
 
-#tagline {
+.tagline {
   width: 540px;
   height: 114px;
   position: absolute;
@@ -149,19 +149,13 @@ input[type=submit] {
   margin-left: 14pt;
 }
 
-img#app-store {
-  margin-top: 50px;
-  width: 104pt;
-  height: 37pt;
-}
-
-#scanning {
+.scanning {
   left: 170pt;
   position: relative;
   width: 260pt;
 }
 
-img#scanning {
+img.scanning {
   width: 355pt;
   top: 1160pt;
   right: 185pt;
@@ -169,17 +163,17 @@ img#scanning {
   padding-top: 130pt;
 }
 
-#recommendations {
+.recommendations {
   left: 155pt;
   position: relative;
   width: 260pt;
   padding-top: 50pt;
 }
 
-#authors {
+.authors {
   width: 355pt;
   height: auto;
-  top: 1180pt;
+  top: 1270pt;
   right: 15%;
   position: absolute;
 }
@@ -192,14 +186,14 @@ img#scanning {
   size: 20pt
 }
 
-img#low-phone {
+img.low-phone {
   margin-left: 140pt;
   width: 318pt;
   height: 413pt;
   margin-top: 25pt;
 }
 
-#read-with-friends {
+.read-with-friends {
   margin-right: 175pt;
   width: 260pt;
   position: absolute;
@@ -208,29 +202,29 @@ img#low-phone {
   line-height: 26pt;
 }
 
-img#review {
+img.review {
   margin-top: 50pt;
   margin-left: 170pt;
   width: 201pt;
   height: 237pt;
 }
 
-#rate-and-review {
+.rate-and-review {
   margin-right: 140pt;
-  width: 255pt;
+  width: 310pt;
   position: absolute;
-  top: 1500pt;
+  top: 1550pt;
   right: 110pt;
 }
 
-#footer {
+.footer {
   height: 550px;
   top: 150pt;
   position: relative;
   background-color: rgb(244, 248, 247);
 }
 
-#footer:before {
+.footer:before {
   content: "";
   display: block;
   width: 0;
@@ -243,30 +237,6 @@ img#review {
   transform: translateY(-100%);
 }
 
-#footer-content {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200pt;
-  height: 200pt;
-  top: 200pt;
-}
-
-img#book-footer {
-  height: 73pt;
-  width: 105pt;
-  top: -50pt;
-  position: relative;
-}
-
-#footer-content h3 {
-  font-family: 'Roboto Slab', serif;
-  size: 20pt;
-  color: rgb(16, 73, 97);
-  text-align: center;
-  margin-top: -20pt;
-}
-
 .large-top-padding {
   padding-top: 50pt;
 }
@@ -275,7 +245,7 @@ img#book-footer {
   padding-top: 20pt;
 }
 
-#horizontal-line {
+.horizontal-line {
   width: 80%;
   height: 47px;
   display: block;
@@ -283,7 +253,7 @@ img#book-footer {
   border-bottom: 1px solid rgb(151, 151, 151);
 }
 
-#copyright {
+.copyright {
   font-family: 'Roboto', sans-serif;
   size: 12.3pt;
   color: rgb(17, 73, 97);
@@ -303,7 +273,7 @@ img#book-footer {
   text-align: center;
 }
 
-#footer .sharing {
+.footer .sharing {
   font-family: 'Roboto Slab', serif;
   font-size: 26pt;
   color: rgb(16, 73, 97);
@@ -317,8 +287,21 @@ img.center {
   width: 50%;
 }
 
-#lower-footer {
+.lower-footer {
   padding-top: 100px;
+}
+
+img.app-store {
+  margin-top: 50px;
+  width: 104pt;
+  height: 37pt;
+}
+
+img.book-footer {
+  height: 73pt;
+  width: 105pt;
+  top: -50pt;
+  position: relative;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -373,7 +356,7 @@ img.center {
     position: absolute;
   }
 
-  #tagline {
+  .tagline {
     width: 100%;
     height: 450pt;
     background-color: rgb(244, 248, 247);
@@ -381,15 +364,15 @@ img.center {
     top: 0;
   }
 
-  #tagline img {
+  .tagline img {
     padding-left: 15pt;
   }
 
-  #tagline h1 {
+  .tagline h1 {
     padding-top: 130pt;
   }
 
-  img#logo {
+  img.logo {
     position: absolute;
     height: 60px;
     top: 10%;
@@ -399,21 +382,21 @@ img.center {
     z-index: 1;
   }
 
-  #background {
+  .background {
     min-width: 100%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    height: 2740pt;
+    height: 2660pt;
   }
 
-  img#app-store {
+  img.app-store {
     margin-top: 0;
     width: 104pt;
     height: 37pt;
   }
 
-  img#phone {
+  img.phone {
     height: 353pt;
     top: 300pt;
     right: -40pt;
@@ -421,38 +404,23 @@ img.center {
     z-index: 1;
   }
 
-  img#middle-phone {
+  img.middle-phone {
     height: 322pt;
     top: 480pt;
     right: 18%;
     z-index: 1;
   }
 
-  #footer {
+  .footer {
     top: 150pt;
     background-color: rgb(244, 248, 247);
   }
 
-  #footer h4 {
+  .footer h4 {
     color: black;
   }
 
-  #read-with-friends {
-    left: 0pt;
-    top: 430pt;
-    position: relative;
-    margin-right: auto;
-  }
-
-  #authors {
-    width: 256pt;
-    margin-top: 450pt;
-    position: relative;
-    top: 0;
-    right: 0;
-  }
-
-  #recommendations {
+  .recommendations {
     left: 0;
     padding-top: 0;
   }
@@ -461,12 +429,7 @@ img.center {
     display: none;
   }
 
-  #scanning {
-    left: 0pt;
-    top: 580px;
-  }
-
-  img#low-phone {
+  img.low-phone {
     position: relative;
     height: 265pt;
     width: auto;
@@ -474,13 +437,13 @@ img.center {
     margin-left: auto;
   }
 
-  img#review {
+  img.review {
     height: 190pt;
     width: auto;
     margin-left: auto;
   }
 
-  #rate-and-review {
+  .rate-and-review {
     position: relative;
     top: 0;
     right: 0;
@@ -507,7 +470,7 @@ img.center {
     margin: 0 0 0 0;
   }
 
-  #copyright {
+  .copyright {
     text-align: center;
     justify-content: space-between;
     width: 100%;
@@ -516,15 +479,15 @@ img.center {
     padding-right: 0pt;
   }
 
-  #lower-footer {
+  .lower-footer {
     padding-top: 75pt;
   }
 
-  #lower-footer p {
+  .lower-footer p {
     padding-top: 10pt;
   }
 
-  #footer .sharing {
+  .footer .sharing {
     font-size: 18pt;
     padding-top: 0;
   }
@@ -535,14 +498,36 @@ img.center {
     margin-right: auto;
     top: 0;
     right: 0;
+    width: 98vw;
   }
 
-  #footer:before {
+  .footer:before {
     border-left: 50vw solid transparent;
     border-right: 50vw solid transparent;
   }
 
-  #lower-footer {
+  .lower-footer {
     padding-top: 13vh;
   }
+
+  .scanning {
+    left: 0pt;
+    top: 580px;
+  }
+
+  .read-with-friends {
+    left: 0pt;
+    top: 430pt;
+    position: relative;
+    margin-right: auto;
+  }
+
+  .authors {
+    width: 256pt;
+    margin-top: 450pt;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
 }

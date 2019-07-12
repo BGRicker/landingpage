@@ -1,0 +1,533 @@
+body {
+  background-color: rgb(236, 241, 240);
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  min-width: 100%;
+}
+
+h1 {
+  font-size: 40pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: rgb(17, 73, 97);
+  line-height: 47.1pt;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 39pt;
+  color: rgb(16, 73, 97);
+  line-height: 35pt;
+}
+
+h3 {
+  font-size: 19pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgb(134, 134, 134);
+  line-height: 26.3pt;
+  margin-top: -20px;
+}
+
+h4 {
+  font-size: 16pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgb(148, 148, 148);
+  line-height: 19pt;
+  margin-top: -20px;
+}
+
+img#header {
+  max-width: 1264pt;
+}
+
+.background {
+  top: 0px;
+  min-height: 100%;
+  margin: 0px 87px 0px 87px;
+  background-color: rgb(255, 255, 255);
+  height: 3000px;
+}
+
+img.background {
+  width: 1264pt;
+}
+
+img.header {
+  width: 100%;
+  height: 550pt;
+}
+
+img.logo {
+  position: absolute;
+  height: 56px;
+  width: auto;
+  top: 90px;
+  padding-left: 127px;
+}
+
+img.phone {
+  position: absolute;
+  height: 620px;
+  width: auto;
+  top: 80px;
+  right: 155.5px;
+}
+
+img.middle-phone {
+  height: 591px;
+  width: auto;
+  top: 400pt;
+  right: 20%;
+  position: absolute;
+}
+
+.tagline {
+  width: 540px;
+  height: 114px;
+  position: absolute;
+  top: 130px;
+  left: 212px;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  margin: auto;
+  padding-left: 15px;
+  color: rgb(188, 188, 188);
+}
+
+::-moz-placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  margin: auto;
+  padding-left: 15px;
+  color: rgb(188, 188, 188);
+}
+
+:-ms-input-placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  margin: auto;
+  padding-left: 15px;
+  color: rgb(188, 188, 188);
+}
+
+:-moz-placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  margin: auto;
+  padding-left: 15px;
+  color: rgb(188, 188, 188);
+}
+
+input[type=text] {
+  width: 229pt;
+  height: 42pt;
+  border: 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 4pt;
+  box-shadow: 0pt 2pt 4pt rgba(0, 0, 0, 0.1);
+}
+
+input[type=submit] {
+  width: 90pt;
+  height: 42pt;
+  border: 2px;
+  background-color: rgb(17, 73, 97);
+  color: white;
+  font-size: 12pt;
+  border-radius: 4pt;
+  margin-left: 14pt;
+}
+
+.scanning {
+  left: 170pt;
+  position: relative;
+  width: 280pt;
+}
+
+img.scanning {
+  width: 355pt;
+  top: 1160pt;
+  right: 185pt;
+  position: absolute;
+  padding-top: 130pt;
+}
+
+.recommendations {
+  left: 125pt;
+  position: relative;
+  width: 310pt;
+  padding-top: 50pt;
+}
+
+.authors {
+  width: 355pt;
+  height: auto;
+  top: 1270pt;
+  right: 15%;
+  position: absolute;
+}
+
+.lower h3 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(148, 148, 148);
+  line-height: 26pt;
+  font-weight: 400;
+  size: 20pt
+}
+
+img.low-phone {
+  margin-left: 140pt;
+  width: 318pt;
+  height: 413pt;
+  margin-top: 25pt;
+}
+
+.read-with-friends {
+  margin-right: 175pt;
+  width: 260pt;
+  position: absolute;
+  top: 880pt;
+  right: 50pt;
+  line-height: 26pt;
+}
+
+img.review {
+  margin-top: 50pt;
+  margin-left: 170pt;
+  width: 201pt;
+  height: 237pt;
+}
+
+.rate-and-review {
+  margin-right: 140pt;
+  width: 310pt;
+  position: absolute;
+  top: 1550pt;
+  right: 110pt;
+}
+
+.footer {
+  height: 550px;
+  top: 150pt;
+  position: relative;
+  background-color: rgb(244, 248, 247);
+}
+
+.footer:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 45vw solid transparent;
+  border-right: 45vw solid transparent;
+  border-bottom: 100pt solid rgb(244, 248, 247);
+  position: absolute;
+  top: 0;
+  transform: translateY(-100%);
+}
+
+.large-top-padding {
+  padding-top: 50pt;
+}
+
+.small-top-padding {
+  padding-top: 20pt;
+}
+
+.horizontal-line {
+  width: 80%;
+  height: 47px;
+  display: block;
+  margin: auto;
+  border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+.copyright {
+  font-family: 'Roboto', sans-serif;
+  size: 12.3pt;
+  color: rgb(17, 73, 97);
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-content: center;
+  margin: auto;
+  padding-right: 20pt;
+}
+
+.show-on-mobile {
+  display: none;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.footer .sharing {
+  font-family: 'Roboto Slab', serif;
+  font-size: 26pt;
+  color: rgb(16, 73, 97);
+  letter-spacing: 0;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.lower-footer {
+  padding-top: 100px;
+}
+
+img.app-store {
+  margin-top: 50px;
+  width: 104pt;
+  height: 37pt;
+}
+
+img.book-footer {
+  height: 73pt;
+  width: 105pt;
+  top: -50pt;
+  position: relative;
+}
+
+@media only screen and (max-width: 1300px) {
+  h1 {
+    font-size: 30pt;
+    line-height: 36pt;
+    margin: 0 16pt 0 16pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+    margin-left: 15pt;
+  }
+
+  h3 {
+    font-size: 16pt;
+    line-height: 22pt;
+    margin: 10pt 16pt 15pt 16pt;
+  }
+
+  h4 {
+    margin: -5pt 16pt 0 16pt;
+  }
+
+  form {
+    display: none;
+  }
+
+  .top-right {
+    border-width: 0 80vw 12vh 0;
+    border-color: transparent rgb(69, 184, 168) transparent transparent;
+    z-index: 3;
+    right: 0;
+  }
+
+  .top-left {
+    border-width: 12vh 80vw 0 0;
+    border-color: rgb(245, 137, 131) transparent transparent transparent;
+    z-index: 2;
+  }
+
+  .middle-triangle {
+    border-width: 0 0 30vh 180vw;
+    border-color: transparent transparent rgb(238, 198, 122) transparent;
+    right: 0vw;
+  }
+
+  .mobile-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+  }
+
+  .tagline {
+    width: 100%;
+    height: 450pt;
+    background-color: rgb(244, 248, 247);
+    left: 0pt;
+    top: 0;
+  }
+
+  .tagline img {
+    padding-left: 15pt;
+  }
+
+  .tagline h1 {
+    padding-top: 130pt;
+  }
+
+  img.logo {
+    position: absolute;
+    height: 60px;
+    top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+  }
+
+  .background {
+    min-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    height: 2660pt;
+  }
+
+  img.app-store {
+    margin-top: 0;
+    width: 104pt;
+    height: 37pt;
+  }
+
+  img.phone {
+    height: 353pt;
+    top: 300pt;
+    right: -40pt;
+    position: relative;
+    z-index: 1;
+  }
+
+  img.middle-phone {
+    height: 322pt;
+    top: 480pt;
+    right: 18%;
+    z-index: 1;
+  }
+
+  .footer {
+    top: 150pt;
+    background-color: rgb(244, 248, 247);
+  }
+
+  .footer h4 {
+    color: black;
+  }
+
+  .recommendations {
+    left: 0;
+    padding-top: 0;
+  }
+
+  .header {
+    display: none;
+  }
+
+  img.low-phone {
+    position: relative;
+    height: 265pt;
+    width: auto;
+    top: 430pt;
+    margin-left: auto;
+  }
+
+  img.review {
+    height: 190pt;
+    width: auto;
+    margin-left: auto;
+  }
+
+  .rate-and-review {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-right: auto;
+  }
+
+  .triangle-up {
+    padding-top: 98%;
+    display: none;
+    color: black;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .show-on-mobile {
+    display: block;
+  }
+
+  .mobile-center {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+
+  .copyright {
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    padding-right: 0pt;
+  }
+
+  .lower-footer {
+    padding-top: 75pt;
+  }
+
+  .lower-footer p {
+    padding-top: 10pt;
+  }
+
+  .footer .sharing {
+    font-size: 18pt;
+    padding-top: 0;
+  }
+
+  .mobile-center-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    right: 0;
+    width: 98vw;
+  }
+
+  .footer:before {
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+  }
+
+  .lower-footer {
+    padding-top: 13vh;
+  }
+
+  .scanning {
+    left: 0pt;
+    top: 580px;
+  }
+
+  .read-with-friends {
+    left: 0pt;
+    top: 430pt;
+    position: relative;
+    margin-right: auto;
+  }
+
+  .authors {
+    width: 256pt;
+    margin-top: 450pt;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+}

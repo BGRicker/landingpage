@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   font-family: 'Roboto Slab', serif;
-  font-size: 39pt;
+  font-size: 30pt;
   color: rgb(16, 73, 97);
   line-height: 35pt;
 }
@@ -48,12 +48,23 @@ img#header {
   max-width: 1264pt;
 }
 
+.header {
+  width: 100%;
+  height: 550pt;
+}
+
+.top-header {
+  background-color: rgb(244, 248, 247);
+  width: 100%;
+  height: 463pt;
+}
+
 .background {
   top: 0px;
   min-height: 100%;
-  margin: 0px 87px 0px 87px;
+  margin: 0px 100px 0px 100px;
   background-color: rgb(255, 255, 255);
-  height: 3000px;
+  height: 2500px;
 }
 
 img.background {
@@ -70,7 +81,7 @@ img.logo {
   height: 56px;
   width: auto;
   top: 90px;
-  padding-left: 127px;
+  padding-left: 115px;
 }
 
 img.phone {
@@ -100,32 +111,18 @@ img.middle-phone {
 ::-webkit-input-placeholder {
   font-family: 'Roboto', sans-serif;
   font-size: 14pt;
-  margin: auto;
-  padding-left: 15px;
-  color: rgb(188, 188, 188);
-}
-
-::-moz-placeholder {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14pt;
-  margin: auto;
-  padding-left: 15px;
   color: rgb(188, 188, 188);
 }
 
 :-ms-input-placeholder {
   font-family: 'Roboto', sans-serif;
   font-size: 14pt;
-  margin: auto;
-  padding-left: 15px;
   color: rgb(188, 188, 188);
 }
 
 :-moz-placeholder {
   font-family: 'Roboto', sans-serif;
   font-size: 14pt;
-  margin: auto;
-  padding-left: 15px;
   color: rgb(188, 188, 188);
 }
 
@@ -136,6 +133,11 @@ input[type=text] {
   border-color: rgb(255, 255, 255);
   border-radius: 4pt;
   box-shadow: 0pt 2pt 4pt rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  margin: auto;
+  padding-left: 15px;
+  color: black;
 }
 
 input[type=submit] {
@@ -164,7 +166,7 @@ img.scanning {
 }
 
 .recommendations {
-  left: 125pt;
+  left: 155pt;
   position: relative;
   width: 310pt;
   padding-top: 50pt;
@@ -173,9 +175,9 @@ img.scanning {
 .authors {
   width: 355pt;
   height: auto;
-  top: 1270pt;
-  right: 15%;
+  top: 1190pt;
   position: absolute;
+  right: 170pt;
 }
 
 .lower h3 {
@@ -187,7 +189,7 @@ img.scanning {
 }
 
 img.low-phone {
-  margin-left: 140pt;
+  margin-left: 135pt;
   width: 318pt;
   height: 413pt;
   margin-top: 25pt;
@@ -198,13 +200,13 @@ img.low-phone {
   width: 260pt;
   position: absolute;
   top: 880pt;
-  right: 50pt;
+  right: 75pt;
   line-height: 26pt;
 }
 
 img.review {
   margin-top: 50pt;
-  margin-left: 170pt;
+  margin-left: 190pt;
   width: 201pt;
   height: 237pt;
 }
@@ -213,12 +215,12 @@ img.review {
   margin-right: 140pt;
   width: 310pt;
   position: absolute;
-  top: 1550pt;
-  right: 110pt;
+  top: 1450pt;
+  right: 55pt;
 }
 
 .footer {
-  height: 550px;
+  height: 375px;
   top: 150pt;
   position: relative;
   background-color: rgb(244, 248, 247);
@@ -278,6 +280,7 @@ img.review {
   font-size: 26pt;
   color: rgb(16, 73, 97);
   letter-spacing: 0;
+  display: none;
 }
 
 img.center {
@@ -295,6 +298,12 @@ img.app-store {
   margin-top: 50px;
   width: 104pt;
   height: 37pt;
+}
+
+img.app-store-footer {
+  margin-top: -10pt;
+  width: 104pt;
+  margin-bottom: -40pt;
 }
 
 img.book-footer {
@@ -387,7 +396,7 @@ img.book-footer {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    height: 2660pt;
+    height: 2510pt;
   }
 
   img.app-store {

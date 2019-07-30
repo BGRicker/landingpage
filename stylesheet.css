@@ -40,7 +40,7 @@ h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: rgb(148, 148, 148);
-  line-height: 19pt;
+  line-height: 24pt;
   margin-top: -20px;
 }
 
@@ -93,9 +93,9 @@ img.phone {
 }
 
 img.middle-phone {
-  height: 591px;
+  height: 491px;
   width: auto;
-  top: 400pt;
+  top: 420pt;
   right: 20%;
   position: absolute;
 }
@@ -169,13 +169,13 @@ img.scanning {
   left: 155pt;
   position: relative;
   width: 310pt;
-  padding-top: 50pt;
+  padding-top: 32pt;
 }
 
 .authors {
   width: 355pt;
   height: auto;
-  top: 1190pt;
+  top: 1075pt;
   position: absolute;
   right: 170pt;
 }
@@ -189,9 +189,9 @@ img.scanning {
 }
 
 img.low-phone {
-  margin-left: 135pt;
-  width: 318pt;
-  height: 413pt;
+  width: auto;
+  margin-left: 165pt;
+  height: 313pt;
   margin-top: 25pt;
 }
 
@@ -199,29 +199,28 @@ img.low-phone {
   margin-right: 175pt;
   width: 260pt;
   position: absolute;
-  top: 880pt;
+  top: 820pt;
   right: 75pt;
   line-height: 26pt;
 }
 
 img.review {
-  margin-top: 50pt;
+  margin-top: 40pt;
   margin-left: 190pt;
-  width: 201pt;
-  height: 237pt;
+  width: 180pt;
 }
 
 .rate-and-review {
   margin-right: 140pt;
   width: 310pt;
   position: absolute;
-  top: 1450pt;
-  right: 55pt;
+  top: 1355pt;
+  right: 60pt;
 }
 
 .footer {
   height: 375px;
-  top: 150pt;
+  top: 270pt;
   position: relative;
   background-color: rgb(244, 248, 247);
 }
@@ -231,9 +230,9 @@ img.review {
   display: block;
   width: 0;
   height: 0;
-  border-left: 45vw solid transparent;
-  border-right: 45vw solid transparent;
-  border-bottom: 100pt solid rgb(244, 248, 247);
+  border-left: 43vw solid transparent;
+  border-right: 43vw solid transparent;
+  border-bottom: 200pt solid rgb(244, 248, 247);
   position: absolute;
   top: 0;
   transform: translateY(-100%);
@@ -513,6 +512,7 @@ img.book-footer {
   .footer:before {
     border-left: 50vw solid transparent;
     border-right: 50vw solid transparent;
+    border-bottom: 100pt solid rgb(244, 248, 247);
   }
 
   .lower-footer {

@@ -44,6 +44,13 @@ h4 {
   margin-top: -20px;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+  size: 12.3pt;
+  color: rgb(17, 73, 97);
+}
+
+
 img#header {
   max-width: 1264pt;
 }
